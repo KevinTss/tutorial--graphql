@@ -1,8 +1,12 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev -T --no-notify --exit-child src/index.ts",
+    "generate": "ts-node -T src/schema.ts"
+  },
   "dependencies": {
     "apollo-server": "^3.6.7",
     "graphql": "^16.3.0",
