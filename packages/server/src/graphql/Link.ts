@@ -33,7 +33,7 @@ export const LinkQuery = extendType({
         return links;
       },
     });
-    t.field('linkById', {
+    t.field('link', {
       type: 'Link',
       args: {
         id: intArg(),
