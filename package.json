@@ -1,0 +1,10 @@
+{
+  "name": "tutorial--graphql",
+  "private": true,
+  "repository": "git@github.com:KevinTss/tutorial--graphql.git",
+  "author": "KevinTss <kevin.tassi@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}
